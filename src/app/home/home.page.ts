@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  /** Array mit Werten, die in <ion-list> dargestellt werden sollen.  */
+  private readonly LAENDER = [ "Deutschland", "Frankreich", "Spanien", "Schweiz" ];
+
   constructor() {}
 
 }
