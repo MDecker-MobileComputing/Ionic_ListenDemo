@@ -17,7 +17,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 })
 export class AppComponent {
 
-  private menueEintraegeArray: any;
+  private menueEintraegeArray: Array<Object>;
 
   constructor(
     private platform: Platform,
