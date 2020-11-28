@@ -54,6 +54,10 @@ export class AppComponent {
       {
         titel: "Länder und größte Städte",
         ziel: "/seite3"
+      },
+      {
+        titel: "Länder und Wiki-Seite",
+        ziel: "/seite4"
       }
     ];
   }
