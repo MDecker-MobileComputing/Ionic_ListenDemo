@@ -5,11 +5,30 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './seite2.page.html',
   styleUrls: ['./seite2.page.scss'],
 })
-export class Seite2Page implements OnInit {
+export class Seite2Page {
+
+  /**
+   * Array mit Objekten, die in `<ion-list>` dargestellt werden sollen.
+   */
+  private readonly LAENDER_UND_HAUPTSTAEDTE = [
+    {
+      land: "Deutschland",
+      hauptstadt: "Berlin"
+    },
+    {
+      land: "Frankreich",
+      hauptstadt: "Paris"
+    },
+    {
+      land: "Spanien",
+      hauptstadt: "Madrid",
+    },
+    {
+      land: "Schweiz",
+      hauptstadt: "Bern",
+    }
+  ];
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

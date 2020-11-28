@@ -9,4 +9,15 @@
 
 <ion-content>
 
+  <ion-list *ngFor="let zeile of LAENDER_UND_HAUPTSTAEDTE">
+
+    <ion-item>
+      <ion-label>
+        <h1>{{zeile.land}}</h1>
+        <h2>{{zeile.hauptstadt}}</h2>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
+
 </ion-content>
