@@ -20,13 +20,13 @@ export class Seite2Page {
       hauptstadt: "Paris"
     },
     {
+      land: "Schweiz",
+      hauptstadt: "Bern",
+    },
+    {
       land: "Spanien",
       hauptstadt: "Madrid",
     },
-    {
-      land: "Schweiz",
-      hauptstadt: "Bern",
-    }
   ];
 
 }

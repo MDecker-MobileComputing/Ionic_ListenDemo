@@ -20,14 +20,14 @@ export class Seite4Page {
       url_en: "https://en.wikipedia.org/wiki/France"
     },
     {
-      land: "Spanien",
-      url_de: "https://de.wikipedia.org/wiki/Spanien",
-      url_en: "https://en.wikipedia.org/wiki/Spain"
-    },
-    {
       land: "Schweiz",
       url_de: "https://de.wikipedia.org/wiki/Schweiz",
       url_en: "https://en.wikipedia.org/wiki/Switzerland"
+    },
+    {
+      land: "Spanien",
+      url_de: "https://de.wikipedia.org/wiki/Spanien",
+      url_en: "https://en.wikipedia.org/wiki/Spain"
     }
   ];
 

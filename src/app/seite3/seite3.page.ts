@@ -32,13 +32,13 @@ export class Seite3Page {
       staedte: [ "Paris", "Marseille", "Lyon" ]
     },
     {
+      land: "Schweiz",
+      staedte: [ "Zürich", "Genf", "Basel" ]
+    },
+    {
       land: "Spanien",
       staedte : [ "Madrid", "Barcelona", "Valencia" ]
     },
-    {
-      land: "Schweiz",
-      staedte: [ "Zürich", "Genf", "Basel" ]
-    }
   ];
 
 }
