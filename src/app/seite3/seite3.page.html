@@ -3,10 +3,24 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Länder und größte Städte</ion-title>
+    <ion-title>Länder und drei größte Städte</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+  <ion-list *ngFor="let zeile of LAENDER_UND_GROESSTE_STADTE">
+
+    <ion-item>
+      <ion-label>
+
+        <h1>{{zeile.land}}</h1>
+
+        <h3 *ngFor="let stadt of zeile.staedte">{{stadt}}</h3>
+
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
 
 </ion-content>

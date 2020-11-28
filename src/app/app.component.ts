@@ -52,7 +52,7 @@ export class AppComponent {
         ziel: "/seite2"
       },
       {
-        titel: "Länder und Städte",
+        titel: "Länder und größte Städte",
         ziel: "/seite3"
       }
     ];
