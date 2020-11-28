@@ -11,8 +11,6 @@ export class HomePage {
    * Array mit elementen Werten (d.h. keine Objekte mit Unterkomponenten),
    * die in `<ion-list>` dargestellt werden sollen.
    */
-  private readonly LAENDER = [ "Deutschland", "Frankreich", "Spanien", "Schweiz" ];
-
-  constructor() {}
+  private readonly LAENDER_ARRY = [ "Deutschland", "Frankreich", "Spanien", "Schweiz" ];
 
 }

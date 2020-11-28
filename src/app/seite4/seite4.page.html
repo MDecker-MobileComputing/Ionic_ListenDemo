@@ -11,7 +11,7 @@
 
   <p>Ziehen Sie einen Eintrag nach links, um weitere Optionen zu sehen.</p>
 
-  <ion-list *ngFor="let zeile of LAENDER_UND_WIKI_URL">
+  <ion-list *ngFor="let zeile of LAENDER_UND_WIKIURL_ARRAY">
 
     <ion-item-sliding #slidingItem>
       <ion-item>
@@ -21,7 +21,8 @@
       </ion-item>
 
       <ion-item-options side="end">
-        <ion-item-option color="primary" (click)="onWikiSeiteOeffnen(zeile.url, slidingItem)">Wiki-Seite öffnen</ion-item-option>
+        <ion-item-option color="primary"   (click)="onWikiSeiteOeffnen(zeile.url_de, slidingItem)">Wiki-Seite (de) öffnen</ion-item-option>
+        <ion-item-option color="secondary" (click)="onWikiSeiteOeffnen(zeile.url_en, slidingItem)">Wiki-Seite (en) öffnen</ion-item-option>
       </ion-item-options>
 
     </ion-item-sliding>

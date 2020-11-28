@@ -8,30 +8,32 @@ import { IonItemSliding } from '@ionic/angular';
 })
 export class Seite4Page {
 
-  private readonly LAENDER_UND_WIKI_URL = [
+  private readonly LAENDER_UND_WIKIURL_ARRAY = [
     {
       land: "Deutschland",
-      url: "https://de.wikipedia.org/wiki/Deutschland"
+      url_de: "https://de.wikipedia.org/wiki/Deutschland",
+      url_en: "https://en.wikipedia.org/wiki/Germany"
     },
     {
       land: "Frankreich",
-      url: "https://de.wikipedia.org/wiki/Frankreich"
+      url_de: "https://de.wikipedia.org/wiki/Frankreich",
+      url_en: "https://en.wikipedia.org/wiki/France"
     },
     {
       land: "Spanien",
-      url: "https://de.wikipedia.org/wiki/Spanien"
+      url_de: "https://de.wikipedia.org/wiki/Spanien",
+      url_en: "https://en.wikipedia.org/wiki/Spain"
     },
     {
       land: "Schweiz",
-      url: "https://de.wikipedia.org/wiki/Schweiz"
+      url_de: "https://de.wikipedia.org/wiki/Schweiz",
+      url_en: "https://en.wikipedia.org/wiki/Switzerland"
     }
   ];
 
-  constructor() { }
-
 
   /**
-   * Event-Handler
+   * Event-Handler für Buttons zum Öffnen einer URL in *Sliding Item*.
    *
    * @param url  URL der zu öffnenden Wikipedia-Seite.
    *

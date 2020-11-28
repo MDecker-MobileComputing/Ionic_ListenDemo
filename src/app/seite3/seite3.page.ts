@@ -22,7 +22,7 @@ export class Seite3Page {
    *
    * * Schweiz: https://de.statista.com/statistik/daten/studie/216783/umfrage/groesste-staedte-in-der-schweiz/
    */
-  private readonly LAENDER_UND_GROESSTE_STADTE = [
+  private readonly LAENDER_UND_GROESSTE_STADTE_ARRAY = [
     {
       land: "Deutschland",
       staedte: [ "Berlin", "Hamburg", "München" ]
@@ -40,7 +40,5 @@ export class Seite3Page {
       staedte: [ "Zürich", "Genf", "Basel" ]
     }
   ];
-
-  constructor() { }
 
 }
