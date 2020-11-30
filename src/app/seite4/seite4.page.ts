@@ -41,7 +41,7 @@ export class Seite4Page {
    */
   private onWikiSeiteOeffnen(url: string, slider: IonItemSliding) {
 
-    window.open(url,"_system", "location=yes");
+    window.open(url, "_system", "location=yes");
 
     slider.close();
   }
