@@ -1,6 +1,6 @@
 # Ionic-App "ListenDemo" #
 
-Simple ionic app that demonstrates how to display data in lists.
+Simple ionic app that demonstrates how to display dynamic data in lists using `*ngFor`.
 
 <br>
 
