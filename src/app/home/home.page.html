@@ -9,9 +9,9 @@
 
 <ion-content [fullscreen]="true">
 
-  <ion-list *ngFor="let land of LAENDER_ARRAY">
+  <ion-list>
 
-    <ion-item>
+    <ion-item *ngFor="let land of LAENDER_ARRAY">
       <ion-label>
         <h1>{{land}}</h1>
       </ion-label>

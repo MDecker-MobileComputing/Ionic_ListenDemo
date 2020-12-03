@@ -11,9 +11,10 @@
 
   <p>Ziehen Sie einen Eintrag nach links, um weitere Optionen zu sehen.</p>
 
-  <ion-list *ngFor="let zeile of LAENDER_UND_WIKIURL_ARRAY">
+  <ion-list>
 
-    <ion-item-sliding #slidingItem>
+    <ion-item-sliding *ngFor="let zeile of LAENDER_UND_WIKIURL_ARRAY" #slidingItem>
+
       <ion-item>
         <ion-label>
           <h1>{{zeile.land}}</h1>

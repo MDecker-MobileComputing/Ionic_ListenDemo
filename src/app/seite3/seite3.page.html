@@ -9,9 +9,9 @@
 
 <ion-content>
 
-  <ion-list *ngFor="let zeile of LAENDER_UND_GROESSTE_STAEDTE_ARRAY">
+  <ion-list>
 
-    <ion-item>
+    <ion-item *ngFor="let zeile of LAENDER_UND_GROESSTE_STAEDTE_ARRAY">
       <ion-label>
 
         <h1>{{zeile.land}}</h1>
