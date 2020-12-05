@@ -7,9 +7,14 @@ import { Component } from '@angular/core';
 })
 export class Seite5Page {
 
+  /** Promise auf String-Array, wird mit ngFor dargestellt.  */
   private stringArrayPromise = this.getStringArray();
 
 
+  /**
+   * Methode liefert Promise auf String-Array mit 100 Elementen zurück.
+   * Die Strings lauten "Eintrag 1", "Eintrag 2", ..., "Eintrag 100".
+   */
   public async getStringArray(): Promise<String[]> {
 
     let resultArray:string[] = [];
@@ -21,7 +26,6 @@ export class Seite5Page {
       }
 
       resolveCallback( resultArray );
-
     });
 
     return promise;
