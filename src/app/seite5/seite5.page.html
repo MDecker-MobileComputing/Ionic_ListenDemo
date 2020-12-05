@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Lange Liste</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-list>
+
+    <ion-item *ngFor="let zeile of stringArrayPromise | async">
+      <ion-label>
+        <h1>{{zeile}}</h1>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
