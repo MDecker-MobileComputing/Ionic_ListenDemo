@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ListenDemo</string>
+    <string name="title_activity_main">ListenDemo</string>
+    <string name="package_name">de.mide.ionic.listendemo</string>
+    <string name="custom_url_scheme">de.mide.ionic.listendemo</string>
+</resources>
