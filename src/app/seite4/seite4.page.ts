@@ -37,7 +37,7 @@ export class Seite4Page {
    *
    * @param url  URL der zu öffnenden Wikipedia-Seite.
    *
-   * @param slider  Slider-Element, da zu schliessen ist.
+   * @param slider  Slider-Element, das zu schliessen ist.
    */
   private onWikiSeiteOeffnen(url: string, slider: IonItemSliding) {
 

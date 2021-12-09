@@ -22,6 +22,7 @@ export class Seite5Page {
     const promise = new Promise<String[]>(function(resolveCallback, rejectCallback) {
 
       for (let i = 1; i <= 100; i++) {
+
         resultArray.push(`Eintrag ${i}`);
       }
 
