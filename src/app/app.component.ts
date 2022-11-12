@@ -1,46 +1,24 @@
 import { Component } from '@angular/core';
 
-import { Platform } from '@ionic/angular';
-import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-import { StatusBar } from '@ionic-native/status-bar/ngx';
-
-
-/**
- * Programmatische Definition von Navigations-Menü in Methode
- * `fuelleMenueEintrageArray()`, siehe:
- * https://www.tutorialandexample.com/ionic-menu/
- */
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  styleUrls: ['app.component.scss']
+  styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
 
   private menueEintraegeArray: Array<Object>;
 
-  constructor(
-    private platform: Platform,
-    private splashScreen: SplashScreen,
-    private statusBar: StatusBar        ) {
+  constructor() {
 
     this.fuelleMenueEintrageArray();
-    this.initializeApp();
-  }
-
-  initializeApp() {
-
-    this.platform.ready().then(() => {
-      this.statusBar.styleDefault();
-      this.splashScreen.hide();
-    });
   }
 
   /**
    * Füllt Member-Variable `menueEintraegeArray` mit einem
    * Element pro Navigationsziel/Seite.
    */
-  private fuelleMenueEintrageArray() {
+   private fuelleMenueEintrageArray() {
 
     this.menueEintraegeArray = [
       {

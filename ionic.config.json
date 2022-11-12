@@ -1,7 +1,6 @@
 {
   "name": "ListenDemo",
   "integrations": {
-    "cordova": {},
     "capacitor": {}
   },
   "type": "angular"
