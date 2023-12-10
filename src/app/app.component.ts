@@ -5,26 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent  {
 
-  public menueEintraegeArray: Array<any> = [];
-
-  /**
-   * Eine Methode, die beim Initialisieren der Komponente aufgerufen wird.
-   * Sie ruft die Methode 'fuelleMenueEintrageArray' auf, um das Menüeintrag-Array zu füllen.
-   */
-  ngOnInit() {
-    this.fuelleMenueEintrageArray();
-  }
-
-
-  /**
-   * Füllt Member-Variable `menueEintraegeArray` mit einem
-   * Element pro Navigationsziel/Seite.
-   */
-  public fuelleMenueEintrageArray() {
-
-    this.menueEintraegeArray = [
+  public menueEintraegeArray: Array<any> = [
       {
         titel: "Länder",
         ziel: "/home"
@@ -46,6 +29,5 @@ export class AppComponent implements OnInit {
         ziel: "/seite5"
       }
     ];
-  }
 
 }
