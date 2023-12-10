@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class Seite5Page {
 
   /** Promise auf String-Array, wird mit ngFor dargestellt.  */
-  private stringArrayPromise = this.getStringArray();
+  public stringArrayPromise = this.getStringArray();
 
 
   /**

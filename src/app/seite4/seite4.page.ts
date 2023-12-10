@@ -8,7 +8,7 @@ import { IonItemSliding } from '@ionic/angular';
 })
 export class Seite4Page {
 
-  private readonly LAENDER_UND_WIKIURL_ARRAY = [
+  public readonly LAENDER_UND_WIKIURL_ARRAY = [
     {
       land: "Deutschland",
       url_de: "https://de.wikipedia.org/wiki/Deutschland",
@@ -39,7 +39,7 @@ export class Seite4Page {
    *
    * @param slider  Slider-Element, das zu schliessen ist.
    */
-  private onWikiSeiteOeffnen(url: string, slider: IonItemSliding) {
+  public onWikiSeiteOeffnen(url: string, slider: IonItemSliding) {
 
     window.open(url, "_system", "location=yes");
 

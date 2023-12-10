@@ -1,10 +1,12 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'de.mide.ionic.menudemo',
+  appId: 'de.mide.ionic.listendemo',
   appName: 'ListenDemo',
   webDir: 'www',
-  bundledWebRuntime: false
+  server: {
+    androidScheme: 'https'
+  }
 };
 
 export default config;

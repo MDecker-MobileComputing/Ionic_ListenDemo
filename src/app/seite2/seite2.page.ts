@@ -10,7 +10,7 @@ export class Seite2Page {
   /**
    * Array mit Objekten, die in `<ion-list>` dargestellt werden sollen.
    */
-  private readonly LAENDER_UND_HAUPTSTAEDTE_ARRAY = [
+  public readonly LAENDER_UND_HAUPTSTAEDTE_ARRAY = [
     {
       land: "Deutschland",
       hauptstadt: "Berlin"

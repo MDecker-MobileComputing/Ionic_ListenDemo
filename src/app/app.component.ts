@@ -1,15 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
-  private menueEintraegeArray: Array<Object>;
+  public menueEintraegeArray: Array<any> | undefined;
 
-  constructor() {
+  ngOnInit() {
 
     this.fuelleMenueEintrageArray();
   }
@@ -18,7 +18,7 @@ export class AppComponent {
    * Füllt Member-Variable `menueEintraegeArray` mit einem
    * Element pro Navigationsziel/Seite.
    */
-   private fuelleMenueEintrageArray() {
+  public fuelleMenueEintrageArray() {
 
     this.menueEintraegeArray = [
       {
