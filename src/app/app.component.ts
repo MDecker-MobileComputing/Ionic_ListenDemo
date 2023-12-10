@@ -9,10 +9,14 @@ export class AppComponent implements OnInit {
 
   public menueEintraegeArray: Array<any> = [];
 
+  /**
+   * Eine Methode, die beim Initialisieren der Komponente aufgerufen wird.
+   * Sie ruft die Methode 'fuelleMenueEintrageArray' auf, um das Menüeintrag-Array zu füllen.
+   */
   ngOnInit() {
-
     this.fuelleMenueEintrageArray();
   }
+
 
   /**
    * Füllt Member-Variable `menueEintraegeArray` mit einem
