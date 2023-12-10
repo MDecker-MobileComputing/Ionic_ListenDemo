@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-  public menueEintraegeArray: Array<any> | undefined;
+  public menueEintraegeArray: Array<any> = [];
 
   ngOnInit() {
 
