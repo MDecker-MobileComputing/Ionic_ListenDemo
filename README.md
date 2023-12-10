@@ -21,6 +21,7 @@ Simple ionic app that demonstrates how to display dynamic data in lists using `*
 <br>
 
 ----
+
 ## Run the app locally ##
 
 Prerequisite: NPM package [`@ionic/cli`](https://www.npmjs.com/package/@ionic/cli) must be installed globally.
