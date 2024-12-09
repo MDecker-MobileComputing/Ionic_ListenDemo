@@ -26,7 +26,7 @@ const routes: Routes = [
   {
     path: 'seite5',
     loadChildren: () => import('./seite5/seite5.module').then( m => m.Seite5PageModule)
-  },
+  }
 ];
 
 @NgModule({
